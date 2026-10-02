@@ -1,0 +1,112 @@
+# Rate-a-Movie
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ICT 9 Drill 2</title>
+
+	<style>
+
+		h2{
+			text-align: center;
+			margin-top: 120px;
+		}
+
+		p{
+			text-align: center;
+		}
+
+		form{
+			align-content: center;
+			text-align: center;
+		}
+
+		.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 60px;
+			height: 60px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 100px;
+			margin-top: 50px;
+		}
+
+		img{
+			width: 200px;
+			height: 200px;
+		}
+
+		h4{
+			margin-bottom: 2px;
+		}
+
+		mark{
+			background-color: white;
+		}
+
+
+	</style>
+</head>
+<body style="background-color: lightgray;">
+
+<h2><mark> RATE A MOVIE </mark></h2>
+
+<p>Share your top pick movie and write a review.</p>
+
+<br>
+
+<div class="container">
+	
+<img src="movie.jpeg">
+
+</div>
+
+<form>
+
+<input type="text" id="mname" name="mname" placeholder="Movie Title" size="100" style="text-align: center; height: 40px;">
+
+<h4>Genres (select all that apply):</h4>
+
+<input type="checkbox" id="genre1" name="genre1" value="Action"><label for="genre1"> Action </label>
+
+<input type="checkbox" id="genre2" name="genre2" value="Comedy"><label for="genre2"> Comedy </label>
+
+<input type="checkbox" id="genre3" name="genre3" value="Drama"><label for="genre3"> Drama </label>
+
+<input type="checkbox" id="genre4" name="genre4" value="Fantasy"><label for="genre4"> Fantasy </label>
+
+<input type="checkbox" id="genre5" name="genre5" value="Sci-Fi"><label for="genre5"> Sci-Fi </label>
+
+<br>
+
+<h4>Rating:</h4>
+
+<input type="radio" id="one star" name="one star" value="one star"><label for="one star"> ★ </label>
+
+<input type="radio" id="two star" name="two star" value="two star"><label for="two star"> ★★ </label>
+
+<input type="radio" id="three star" name="three star" value="three star"><label for="three star"> ★★★ </label>
+
+<input type="radio" id="four star" name="four star" value="four star"><label for="four star"> ★★★★ </label>
+
+<input type="radio" id="five star" name="five star" value="five star"><label for="five star"> ★★★★★ </label>
+
+<br>
+<br>
+
+<textarea id="feedback" name="feedback" rows="4" cols="100" placeholder="Write your review..." style="text-align: center; padding-top: 50px;"></textarea>
+
+<br>
+
+<input type="submit" value="Submit" style="width: 820px; height: 50px;">
+
+</form>
+
+<p>Movie Review Tips: <a href="https://medium.com/@thecinemascale/10-essential-elements-for-movie-reviews-921230d7fb1e">Click here</a></p>
+
+</body>
+</html>
